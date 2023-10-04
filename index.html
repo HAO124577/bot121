@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Заявка на партнерство/орлы</title>
+</head>
+<body>
+    <h1>Заявка на партнерство/орлы</h1>
+    <form method="POST">
+        <label for="telegram_tag">Тег в Telegram:</label>
+        <input type="text" id="telegram_tag" name="telegram_tag" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="service">Выберите услугу:</label>
+        <select id="service" name="service" required>
+            <option value="1 тир">1 тир</option>
+            <option value="2 тир">2 тир</option>
+            <option value="3 тир">3 тир</option>
+            <option value="орлы">орлы</option>
+        </select><br><br>
+
+        <input type="submit" value="Подать заявку">
+    </form>
+</body>
+</html>
